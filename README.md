@@ -1,4 +1,4 @@
-# Instrumenting-FastAPI-using-OpenTelemetry
+# Instrumenting-FastAPI-microservices-using-OpenTelemetry
 
 This project demonstrates how to instrument FastAPI applications using OpenTelemetry and visualize the traces using **Grafana** and **Tempo**. This setup helps you monitor, trace, and analyze the performance of FastAPI-based microservices and pinpoint bottlenecks or issues across distributed systems.
 
@@ -102,6 +102,8 @@ helm install tempo grafana/tempo -n fastapi
 ```
 
 These commands will set up Grafana and Tempo in your Kubernetes environment, preparing them to receive and visualize traces from your FastAPI services.
+
+For more details on LGTM Stack: https://github.com/adityawdubey/LGTM-Monitoring-Stack
 
 ### ❏ Port forward to access services
 
